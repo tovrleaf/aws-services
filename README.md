@@ -1,3 +1,17 @@
+# AWS Services
+
+Demo app for displaying all AWS Services.
+
+## Commands
+
+```
+make build
+make run
+make test
+make logs
+make stop
+```
+
 ## Environment
 
 ```
