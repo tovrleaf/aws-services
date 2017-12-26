@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
-class AWSProduct extends Component {
+class Product extends Component {
   render() {
     return (
       <div class="col-md-3">
-        <h2>Heading</h2>
+        <h3>Heading</h3>
         <p>Foo Bar Biz</p>
         <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
       </div>
@@ -12,4 +12,4 @@ class AWSProduct extends Component {
   }
 };
 
-export default AWSProduct;
+export default Product;

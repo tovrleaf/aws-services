@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Header from './Header'
-import AWSProductContainer from './AWSProductContainer'
-import AWSProduct from './AWSProduct'
+import ProductContainer from './ProductContainer'
+import Product from './Product'
 
 class App extends Component {
   render() {
@@ -9,12 +9,12 @@ class App extends Component {
       <div className="App">
         <Header />
         <main role="main">
-          <AWSProductContainer products={[
-            <AWSProduct />,
-            <AWSProduct />,
-            <AWSProduct />,
-            <AWSProduct />,
-            <AWSProduct />
+          <ProductContainer products={[
+            <Product />,
+            <Product />,
+            <Product />,
+            <Product />,
+            <Product />
           ]} />
         </main>
       </div>

@@ -4,7 +4,8 @@ class AWSProductContainer extends Component {
   render() {
     return (
       <div class="container">
-        <div class="row">
+        <h2>Service name</h2>
+        <div class="row text-center">
           {this.props.products}
         </div>
         <hr />
