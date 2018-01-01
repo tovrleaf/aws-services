@@ -9,5 +9,4 @@
 .productContainer > .row [class*="col-"] {
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
 }
