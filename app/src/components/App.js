@@ -8,9 +8,33 @@ class App extends Component {
       <div className="App">
         <Header />
         <main role="main">
+          <ProductContainer name="Compute" products={[
+            "Amazon EC2",
+            "Amazon Elastic Container Service",
+            "Amazon EKS",
+            "Amazon Elastic Container Registry",
+            "Amazon Lightsail",
+            "AWS Batch",
+            "AWS Elastic Beanstalk",
+            "AWS Fargate",
+            "AWS Lambda",
+            "AWS Serverless Application Repository",
+            "Auto Scaling",
+            "VMware Cloud on AWS"
+          ]} />
+          <ProductContainer name="Storage" products={[
+            {name: "Amazon S3", link: "https://aws.amazon.com/s3/"},
+            "Amazon Elastic Block Store",
+            "Amazon Elastic File System",
+            "Amazon Glacier",
+            "AWS Storage Gateway",
+            "AWS Snowball",
+            "AWS Snowball Edge",
+            "AWS Snowmobile"
+          ]} />
           <ProductContainer name="Security, Identity & Compliance" products={[
-            {name: "AWS Artifact", link: "https://aws.amazon.com/artifact/", disabled: 1},
-            {name: "AWS Certificate Manager", link: "je", disabled: 1},
+            {name: "AWS Artifact"},
+            {name: "AWS Certificate Manager"},
             "Amazon Cloud Directory",
             "AWS CloudHSM",
             "Amazon Cognito",
