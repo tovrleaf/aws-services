@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Product.css';
 
 class Product extends Component {
   render() {
@@ -9,14 +10,15 @@ class Product extends Component {
       logo = require('./../assets/Error-404Window-icon.png')
     }
     let style = {}
-    if (typeof this.props.link != 'string' || this.props.disabled) {
-      style.opacity = 0.35;
+    if (typeof this.props.link != 'string') {
+      style.opacity = 0.25;
     }
     return (
-      <div class="col-md-2" style={style}>
-        <img src={logo} class="img-fluid" />
-        <h4>{this.props.name}</h4>
-        <p><a class="btn btn-secondary" href={this.props.link} role="button">View details &raquo;</a></p>
+      <div class="col-md-2 product" style={style}>
+        <a href={this.props.link}>
+          <img src={logo} class="img-fluid" />
+          <p>{this.props.name}</p>
+        </a>
       </div>
     );
   }

@@ -1,0 +1,13 @@
+.productContainer > .row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+    flex-wrap: wrap;
+}
+
+.productContainer > .row [class*="col-"] {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+}
