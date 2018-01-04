@@ -7,7 +7,7 @@ class Header extends Component {
       <header role="banner">
         <div class="jumbotron">
           <div class="container">
-            <img src={logo} class="img-fluid" />
+            <img src={logo} alt="Amazon Web Services" class="img-fluid" />
           </div>
         </div>
       </header>

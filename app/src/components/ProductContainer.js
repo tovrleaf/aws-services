@@ -10,8 +10,8 @@ class AWSProductContainer extends Component {
         <div class="row text-center">
           {this.props.products.map((product) => (
             <Product category={this.props.name}
-              name={typeof product !== 'object' ? product : product.name}
-              link={product.link} />
+              name={typeof product === 'object' ? Object.keys(product)[0] : product}
+              link={typeof product === 'object' ? product[Object.keys(product)[0]] : null} />
           ))}
         </div>
         <hr />

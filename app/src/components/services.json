@@ -1,0 +1,43 @@
+{
+    "Compute": [
+        "Amazon EC2",
+        "Amazon Elastic Container Service",
+        "Amazon Elastic Container Service for Kubernetes",
+        "Amazon Elastic Container Registry",
+        "Amazon Lightsail",
+        "AWS Batch",
+        "AWS Elastic Beanstalk",
+        "AWS Fargate",
+        "AWS Lambda",
+        "AWS Serverless Application Repository",
+        "Auto Scaling",
+        "VMware Cloud on AWS"
+    ],
+    "Storage": [
+        {"Amazon S3": "https://aws.amazon.com/s3/"},
+        "Amazon Elastic Block Store",
+        "Amazon Elastic File System",
+        "Amazon Glacier",
+        "AWS Storage Gateway",
+        "AWS Snowball",
+        "AWS Snowball Edge",
+        "AWS Snowmobile"
+    ],
+    "Security, Identity & Compliance": [
+        {"AWS Artifact": null},
+        {"AWS Certificate Manager": null},
+        "Amazon Cloud Directory",
+        "AWS CloudHSM",
+        "Amazon Cognito",
+        "AWS Directory Service",
+        "Amazon GuardDuty",
+        {"AWS Identity and Access Management (IAM)": "https://aws.amazon.com/iam/"},
+        "Amazon Inspector",
+        "AWS Key Management Service",
+        "Amazon Macie",
+        "AWS Organizations",
+        "AWS Shield",
+        "AWS Single Sign-On",
+        "AWS WAF"
+    ]
+}
